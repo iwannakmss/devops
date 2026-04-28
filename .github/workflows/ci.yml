@@ -24,4 +24,4 @@ jobs:
         run: echo "Build step (Node.js app)"
 
       - name: Run tests
-        run: npm test
+        run: npx jest
